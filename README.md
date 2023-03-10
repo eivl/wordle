@@ -2,3 +2,16 @@
 A demo application showing first iteration
 and second iteration after a refactor.
 
+install with poetry
+
+```
+poetry install
+```
+
+or just use pip to install it.
+
+```
+py -m pip install windows-curses
+```
+
+![](https://i.imgur.com/75x5uAU.gif)
