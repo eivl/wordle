@@ -21,3 +21,8 @@ to run the game, use windows terminal with powershell 7
 ```
 poetry run python wordle.py
 ```
+
+or to run it without poetry
+```
+py wordle.py
+```
