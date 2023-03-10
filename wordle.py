@@ -132,7 +132,12 @@ class Wordle:
                     curses.color_pair(self.RED_PAIR),
                 )
 
-    def draw_current_word(self, stdscr):
+    def draw_current_word(self, stdscr) -> None:
+        """
+        Draw the current word. Including underlines for each character.
+        :param stdscr:
+        :return:
+        """
         stdscr.addstr(self.line, 1, ' '.join(self.current_word))
         for i in range(5):
             stdscr.chgat(self.line, 1 + i * 2, 1, curses.A_UNDERLINE)
