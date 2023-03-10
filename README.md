@@ -14,7 +14,7 @@ or just use pip to install it.
 py -m pip install windows-curses
 ```
 
-![](https://i.imgur.com/75x5uAU.gif)
+![](https://i.imgur.com/m8o6WG3.gif)
 
 to run the game, use windows terminal with powershell 7
 
