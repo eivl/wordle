@@ -15,3 +15,9 @@ py -m pip install windows-curses
 ```
 
 ![](https://i.imgur.com/75x5uAU.gif)
+
+to run the game, use windows terminal with powershell 7
+
+```
+poetry run python wordle.py
+```
